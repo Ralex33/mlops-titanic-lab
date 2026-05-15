@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Modelos
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-data/
+
+# Environment
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Pytest
+.pytest_cache/
+
+# Build
+dist/
+build/
