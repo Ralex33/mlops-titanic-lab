@@ -29,7 +29,7 @@ def train():
     os.makedirs("modelos", exist_ok=True)
 
     # 3. GUARDAR EN EL VOLUMEN COMPARTIDO
-    ruta_modelo = "modelos/model.pkl"
+    ruta_modelo = "/app/modelos/model.pkl"
     joblib.dump(model, ruta_modelo)
     print(f"✅ Modelo guardado exitosamente en {ruta_modelo}")
 
